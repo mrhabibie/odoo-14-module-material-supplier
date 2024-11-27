@@ -30,11 +30,15 @@ This Odoo 14 module provides a system for managing materials and suppliers, with
 
 ## Installation
 
-1. Clone this module repository into your Odoo custom addons directory:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/mrhabibie/odoo-14-module-material-supplier.git /your/custom/odoo-addons/path
+   git clone https://github.com/mrhabibie/odoo-14-module-material-supplier.git
+    ```
+2. Copy `materials_module` into your Odoo custom addons directory:
+   ```bash
+   cp -r odoo-14-module-material-supplier/addons/materials_module /your/custom/odoo-addons/path
    ```
-2. Update Module List from Odoo UI:
+3. Update Module List from Odoo UI:
     1. **Login to Odoo**.
     2. **Activate Developer Mode**:
         - Go to **Settings** > Scroll down and click **Activate Developer Mode**.
