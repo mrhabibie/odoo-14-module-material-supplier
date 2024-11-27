@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem id="material_supplier_root" name="Material and Supplier" sequence="10" />
+    <menuitem id="menu_material" name="Materials" parent="material_supplier_root" action="action_materials"
+              sequence="1" />
+    <menuitem id="menu_supplier" name="Suppliers" parent="material_supplier_root" action="action_suppliers"
+              sequence="2" />
+</odoo>

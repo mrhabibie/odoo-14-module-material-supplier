@@ -1,0 +1,22 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+Table material_supplier as S {
+  id int [primary key]
+  name varchar
+}
+
+Table material_material {
+  id int [primary key]
+  code varchar
+  name varchar
+  type material_type
+  buy_price float [note: "min: 100"]
+  supplier_id int [ref: > S.id] 
+}
+
+Enum material_type {
+  fabric
+  jeans
+  cotton
+}

@@ -1,0 +1,23 @@
+<odoo>
+    <!-- Action for Materials -->
+    <record id="action_materials" model="ir.actions.act_window">
+        <field name="name">Materials</field>
+        <field name="res_model">material.material</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p>Here you can manage materials</p>
+        </field>
+    </record>
+
+    <!-- Action for Suppliers -->
+    <record id="action_suppliers" model="ir.actions.act_window">
+        <field name="name">Suppliers</field>
+        <field name="res_model">material.supplier</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p>Here you can manage suppliers</p>
+        </field>
+    </record>
+</odoo>
